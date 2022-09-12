@@ -15,6 +15,15 @@ Ext.define('app.Application', {
         }
     },
 
+    launch: function (){
+        Ext.create("Ext.Viewport",{
+            layout:"fit",
+            items: {
+                xtype:"maincontainer"
+            }
+        });
+    },
+
     onAppUpdate: function () {
         Ext.Msg.confirm('Application Update', 'This application has an update, reload?',
             function (choice) {

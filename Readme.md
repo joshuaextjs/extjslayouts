@@ -29,7 +29,7 @@ process.
 
 ## Example link
 
-Applications that target a single toolkit will have the following structure.
+https://extjs.mx/examples/layouts
 
 
 ## Basic Application Structure
